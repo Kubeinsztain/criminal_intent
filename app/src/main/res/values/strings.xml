@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CriminalIntent</string>
+    <string name="crime_title_hint">Wprowadź tytuł sprawy:</string>
+    <string name="crime_title_label">Tytuł</string>
+    <string name="crime_details_label">Opis</string>
+    <string name="crime_solved_label">Rozwiązana</string>
+    <string name="contact_police">Bagiety</string>
+    <string name="crime_first">Pierwsza</string>
+    <string name="crime_last">Ostatnia</string>
+    <string name="date_picker_title">Data zdarzenia:</string>
+    <string name="time_picker_title">Godzina zdarzenia:</string>
+    <string name="cancel">Wróć</string>
+
+    <string name="new_crime">Nowe przestępstwo</string>
+    <string name="show_subtitle">Pokaż podtytuł</string>
+    <string name="hide_subtitle">Ukryj podtytuł</string>
+    <string name="subtitle_format">%1$d przestępstw</string>
+</resources>
