@@ -12,7 +12,17 @@
     <string name="cancel">Wróć</string>
 
     <string name="new_crime">Nowe przestępstwo</string>
+    <string name="delete_crime">Usuń przestępstwo</string>
     <string name="show_subtitle">Pokaż podtytuł</string>
     <string name="hide_subtitle">Ukryj podtytuł</string>
-    <string name="subtitle_format">%1$d przestępstw</string>
+
+    <plurals name="subtitle_plural">
+        <item quantity="one">1 przestępstwo</item>
+        <item quantity="few">%d przestępstwa</item>
+        <item quantity="other">%d przestępstw</item>
+    </plurals>
+
+    <string name="empty_crime_list">Lista przestępstw jest pusta</string>
+    <string name="empty_crime_list_add">Stuknij, żeby dodać</string>
+
 </resources>
