@@ -113,7 +113,7 @@ public class CrimeListFragment extends Fragment {
             mAdapter = new CrimeAdapter(crimes);
             mCrimeRecyclerView.setAdapter(mAdapter);
         } else {
-            mAdapter.replaceList(crimes);
+            mAdapter.setCrimes(crimes);
             mAdapter.notifyDataSetChanged();
         }
 
@@ -241,7 +241,7 @@ public class CrimeListFragment extends Fragment {
             }
         }
 
-        public void replaceList(List<Crime> crimes) {
+        public void setCrimes(List<Crime> crimes) {
             mCrimes = crimes;
         }
     }
